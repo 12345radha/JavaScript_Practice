@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lateef&family=Pangolin&display=swap');
+
+#guess_box,.resultParas{
+    width:30%;
+    height:auto;
+    margin:auto;
+    border:2px solid red;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    
+    font-size: 20px;
+}
+
+#cotent-text{
+text-align: justify;
+  text-justify: inter-word;
+}
+#heading{
+  font-family: 'Pangolin', cursive;
+    font-family: 'Lateef', cursive;
+    text-align: center;
+    padding: none;
+}
+#start_new_game,button{
+  border:none;
+  padding:10px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: rgb(6, 93, 165);
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  
+
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.guessfield{
+  width:100%;
+  padding: 5px;
+ 
+}
+
+
+@media screen and (max-width:480px){
+  .guessfield{
+    width: 80%;
+  }
+  button{
+    padding:5px 20px;
+  }
+}
